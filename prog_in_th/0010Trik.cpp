@@ -53,6 +53,8 @@ int trik(string abc){
 
 int main(int argc, char const *argv[])
 {
-    cout<<trik(" ")<<endl;    
+    string Input;
+    cin>>Input;
+    cout<<trik(Input)<<endl;    
     return 0;
 }
